@@ -113,3 +113,17 @@ table {
 	background-color: hsl(240, 100%, 80%);
 	color: #fff;
 }
+@media (max-width: 500px){
+  .panel {
+    flex-direction: column;
+	width: 100%;
+  }
+  .pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #e1f1ff;
+    padding: 25px 50px;
+  }
+  .pricing-plan:last-child {
+    border-right: none;
+  }
+}
