@@ -92,7 +92,7 @@ table {
 	max-width: 10rem;
 	border-top: 1px solid hsl(0, 0%, 95%);
 	border-bottom: 1px solid hsl(0, 0%, 95%);
-
+	font-weight: 600;
 }
 .pricing-price{
 	color: blue;
