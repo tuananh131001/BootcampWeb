@@ -35,6 +35,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 1px;
 }
 ol, ul {
 	list-style: none;
@@ -67,7 +69,7 @@ table {
 	flex-direction: column;
 	align-items: center;
 	gap: 2em;
-	padding: 1em;
+	padding: 1em 2em;
 	text-transform: uppercase;
 }
 .pricing-plan:nth-child(2){
@@ -83,13 +85,14 @@ table {
 }
 .pricing-features-item{
 	line-height: 1rem;
-	font-size: .8rem;
+	font-size: .6rem;
 	color: blue;
 	padding: 1em 0;
 	word-break: break-all;
 	max-width: 10rem;
 	border-top: 1px solid hsl(0, 0%, 95%);
 	border-bottom: 1px solid hsl(0, 0%, 95%);
+
 }
 .pricing-price{
 	color: blue;
@@ -97,4 +100,16 @@ table {
 .pricing-price{
 	font-size: 2rem;
 	font-weight: bold;
+}
+.pricing-button{
+	font-size: .8rem;
+	color: blue;
+	text-decoration: none;
+	border: 1px solid hsl(240, 100%, 80%);
+	padding: 1em 2em;
+	border-radius: 10px;
+}
+.pricing-button:hover{
+	background-color: hsl(240, 100%, 80%);
+	color: #fff;
 }
